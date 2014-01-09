@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		343BA033187EA3F200669701 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 343BA032187EA3F200669701 /* README.md */; };
 		34E21EAB187E8D9600EF9DCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E21EAA187E8D9600EF9DCD /* Foundation.framework */; };
 		34E21EAD187E8D9600EF9DCD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E21EAC187E8D9600EF9DCD /* CoreGraphics.framework */; };
 		34E21EAF187E8D9600EF9DCD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E21EAE187E8D9600EF9DCD /* UIKit.framework */; };
@@ -46,13 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		343BA032187EA3F200669701 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		34E21EA7187E8D9600EF9DCD /* SimpleImageCropEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleImageCropEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34E21EAA187E8D9600EF9DCD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		34E21EAC187E8D9600EF9DCD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		34E21EAE187E8D9600EF9DCD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		34E21EB2187E8D9600EF9DCD /* SimpleImageCropEditor-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleImageCropEditor-Info.plist"; sourceTree = "<group>"; };
 		34E21EB4187E8D9600EF9DCD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		34E21EB6187E8D9600EF9DCD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		34E21EB8187E8D9600EF9DCD /* SimpleImageCropEditor-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleImageCropEditor-Prefix.pch"; sourceTree = "<group>"; };
 		34E21EBD187E8D9600EF9DCD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34E21EC2187E8D9600EF9DCD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -165,9 +166,9 @@
 		34E21EB1187E8D9600EF9DCD /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				343BA032187EA3F200669701 /* README.md */,
 				34E21EB2187E8D9600EF9DCD /* SimpleImageCropEditor-Info.plist */,
 				34E21EB3187E8D9600EF9DCD /* InfoPlist.strings */,
-				34E21EB6187E8D9600EF9DCD /* main.m */,
 				34E21EB8187E8D9600EF9DCD /* SimpleImageCropEditor-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -304,6 +305,7 @@
 			files = (
 				34E21EC3187E8D9600EF9DCD /* Images.xcassets in Resources */,
 				34E21F08187E927E00EF9DCD /* PhotoCropBorder_Stolen.png in Resources */,
+				343BA033187EA3F200669701 /* README.md in Resources */,
 				34E21EB5187E8D9600EF9DCD /* InfoPlist.strings in Resources */,
 				34E21EBE187E8D9600EF9DCD /* Main.storyboard in Resources */,
 			);
@@ -542,6 +544,7 @@
 				34E21EDB187E8D9600EF9DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		34E21EDC187E8D9600EF9DCD /* Build configuration list for PBXNativeTarget "SimpleImageCropEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +553,7 @@
 				34E21EDE187E8D9600EF9DCD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
