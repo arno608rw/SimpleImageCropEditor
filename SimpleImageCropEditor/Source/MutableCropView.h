@@ -55,6 +55,7 @@ static const CGFloat MarginRight = MarginLeft;
 @property (nonatomic, getter = isResizing) BOOL resizing;
 
 
+// prototype the function calls. 
 
 - (UIView *)hitTest:(CGPoint)point withEvent:(UIEvent *)event;
 - (void)layoutSubviews;
