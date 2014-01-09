@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4514" systemVersion="12F45" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="jP9-Xq-sre">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3747"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="0kn-d6-mSR">
+            <objects>
+                <navigationController definesPresentationContext="YES" navigationBarHidden="YES" toolbarHidden="NO" id="jP9-Xq-sre" sceneMemberID="viewController">
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="YaZ-g7-k4f">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </navigationBar>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="JKk-FO-YG0">
+                        <rect key="frame" x="0.0" y="524" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="tintColor" red="0.75" green="0.22193680809999999" blue="0.18252780960000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </toolbar>
+                    <connections>
+                        <segue destination="Q9a-Xu-IcB" kind="relationship" relationship="rootViewController" id="Rv3-rI-50e"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4aP-hY-sPF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-214" y="77"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="GKE-gB-TRU">
+            <objects>
+                <viewController id="Q9a-Xu-IcB" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Fjs-fg-HZW"/>
+                        <viewControllerLayoutGuide type="bottom" id="KOQ-KX-R97"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PDx-yh-9Rc">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xxj-8H-T0N">
+                                <rect key="frame" x="12" y="25" width="297" height="494"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <toolbarItems>
+                        <barButtonItem enabled="NO" systemItem="compose" id="F3A-m8-Ncs" userLabel="Camera Button">
+                            <connections>
+                                <action selector="launchSystemMail:" destination="Q9a-Xu-IcB" id="5J1-jJ-6py"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="LAu-r3-zfT"/>
+                        <barButtonItem enabled="NO" systemItem="edit" id="bJk-Ui-m7j" userLabel="Edit Button">
+                            <connections>
+                                <action selector="editButtonActionSheet:" destination="Q9a-Xu-IcB" id="tGu-pl-GSc"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="gQi-JA-N9h"/>
+                        <barButtonItem enabled="NO" systemItem="camera" id="yf1-mS-Q6L" userLabel="Mail Button">
+                            <connections>
+                                <action selector="launchSystemCamera:" destination="Q9a-Xu-IcB" id="Gfd-eN-bD9"/>
+                            </connections>
+                        </barButtonItem>
+                    </toolbarItems>
+                    <navigationItem key="navigationItem" id="VoT-BM-Z1l">
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" systemItem="edit" id="Zl4-Kd-c1s"/>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="cameraButton" destination="yf1-mS-Q6L" id="25v-af-1vU"/>
+                        <outlet property="imageView" destination="xxj-8H-T0N" id="ReE-g0-uNx"/>
+                        <outlet property="mailButton" destination="F3A-m8-Ncs" id="anN-C3-6Or"/>
+                        <outlet property="photoEditButton" destination="bJk-Ui-m7j" id="TLg-Jd-WdG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aAu-jA-UnJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="241" y="77"/>
+        </scene>
+    </scenes>
+    <color key="tintColor" red="0.75" green="0.22193680809999999" blue="0.18252780960000001" alpha="1" colorSpace="calibratedRGB"/>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>
