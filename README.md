@@ -9,6 +9,4 @@ How to Use: A snapshot is taken using the system camera. This image is retained 
 
 Demonstrates, is example source Objective-C code, use of UIImagePickerController, @protocol, UIActionSheet, UIScrollView, UINavigationController, MFMailComposeViewController, and UIGestureRecognizer. 
 
-This project was created using and refactoring open source GitHub projects "kishikawakatsumi/PEPhotoCropEditor" and "iosdeveloper/ImageCropper". Be sure to tip your hat to these developers. 
-
 Please contact me if you need to hire an iOS Developer Contractor. Be sure you are funded and have solid specifications to review.  Ideas are great, but make sure you write out a specification before contacting me.  Be sure to visit mobilesandbox.com and passwordcaptain.com for more recent iOS example work.  
