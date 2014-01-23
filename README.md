@@ -1,7 +1,7 @@
 SimpleImageCropEditor
 =====================
 
-(Be sure to UP-VOTE the link on stackoverflow.com if this was helpful)
+(Be sure to UP-VOTE the link on stackoverflow.com if this was helpful. Plus you could add a star to this github open source project, above, if deserving)
 
 Image cropping ( cropper ) and image grayscale editor for iOS. This is an open source library and example for iOS developers. 
 
