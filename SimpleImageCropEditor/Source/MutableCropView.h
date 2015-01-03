@@ -24,6 +24,7 @@ static const CGFloat MarginRight = MarginLeft;
 
 @interface MutableCropView : UIView  <UIScrollViewDelegate, UIGestureRecognizerDelegate>
 {
+
     UIImage *image;// The passed image from the crop and grayscale editor
     UIScrollView *scrollView;
     CGRect cropRect;
@@ -37,6 +38,7 @@ static const CGFloat MarginRight = MarginLeft;
     CGRect insetRect;
     CGRect editingRect;
     BOOL resizing;
+
 }
 
 

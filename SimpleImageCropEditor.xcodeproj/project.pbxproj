@@ -207,22 +207,22 @@
 				34E21EEA187E914800EF9DCD /* ViewController.m */,
 				34E21EEB187E914800EF9DCD /* AppDelegate.h */,
 				34E21EEC187E914800EF9DCD /* AppDelegate.m */,
-				34E21EED187E914800EF9DCD /* MutableCropView.m */,
 				34E21EEE187E914800EF9DCD /* TouchResizeCropControlView.h */,
 				34E21EEF187E914800EF9DCD /* TouchResizeCropControlView.m */,
-				34E21EF0187E914800EF9DCD /* CropEditorViewController.h */,
-				34E21EF1187E914800EF9DCD /* MutableCropView.h */,
 				34E21EF2187E914800EF9DCD /* CropEditorViewController.m */,
+				34E21EF0187E914800EF9DCD /* CropEditorViewController.h */,
+				34E21EED187E914800EF9DCD /* MutableCropView.m */,
+				34E21EF1187E914800EF9DCD /* MutableCropView.h */,
 				34E21EF3187E914800EF9DCD /* main.m */,
 				34E21EF4187E914800EF9DCD /* CropView.h */,
 				34E21EF5187E914800EF9DCD /* CropView.m */,
 				34E21EF6187E914800EF9DCD /* GrayScaleEditorViewController.h */,
-				34E21EF7187E914800EF9DCD /* Common.h */,
 				34E21EF8187E914800EF9DCD /* GrayScaleEditorViewController.m */,
 				34E21EF9187E914800EF9DCD /* GrayScaleViewLayer.h */,
 				34E21EFA187E914800EF9DCD /* GrayScaleViewLayer.m */,
 				34E21EFB187E914800EF9DCD /* GrayScaleView.m */,
 				34E21EFC187E914800EF9DCD /* GrayScaleView.h */,
+				34E21EF7187E914800EF9DCD /* Common.h */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -271,9 +271,12 @@
 		34E21E9F187E8D9500EF9DCD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0500;
+				LastUpgradeCheck = 0610;
 				ORGANIZATIONNAME = "MobileSandbox LLC";
 				TargetAttributes = {
+					34E21EA6187E8D9500EF9DCD = {
+						DevelopmentTeam = 2S838S8HUW;
+					};
 					34E21EC7187E8D9600EF9DCD = {
 						TestTargetID = 34E21EA6187E8D9500EF9DCD;
 					};
@@ -389,7 +392,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -428,7 +430,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -462,6 +463,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleImageCropEditor/SimpleImageCropEditor-Prefix.pch";
 				INFOPLIST_FILE = "SimpleImageCropEditor/SimpleImageCropEditor-Info.plist";
@@ -475,6 +477,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SimpleImageCropEditor/SimpleImageCropEditor-Prefix.pch";
 				INFOPLIST_FILE = "SimpleImageCropEditor/SimpleImageCropEditor-Info.plist";
@@ -486,7 +489,6 @@
 		34E21EDD187E8D9600EF9DCD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleImageCropEditor.app/SimpleImageCropEditor";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -509,7 +511,6 @@
 		34E21EDE187E8D9600EF9DCD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SimpleImageCropEditor.app/SimpleImageCropEditor";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",

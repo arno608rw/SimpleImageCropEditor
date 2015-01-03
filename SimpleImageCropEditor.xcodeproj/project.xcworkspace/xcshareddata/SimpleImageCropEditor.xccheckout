@@ -10,29 +10,29 @@
 	<string>SimpleImageCropEditor</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>3FFFC147-5E9E-480C-AABF-8AFA0474D072</key>
-		<string>ssh://github.com/matthewferguson/SimpleImageCropEditor</string>
+		<key>879BF003324E24558D138DA3C78D1A2F3EF8D23D</key>
+		<string>github.com:matthewferguson/SimpleImageCropEditor</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SimpleImageCropEditor.xcodeproj/project.xcworkspace</string>
+	<string>SimpleImageCropEditor.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>3FFFC147-5E9E-480C-AABF-8AFA0474D072</key>
+		<key>879BF003324E24558D138DA3C78D1A2F3EF8D23D</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>ssh://github.com/matthewferguson/SimpleImageCropEditor</string>
+	<string>github.com:matthewferguson/SimpleImageCropEditor</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>3FFFC147-5E9E-480C-AABF-8AFA0474D072</string>
+	<string>879BF003324E24558D138DA3C78D1A2F3EF8D23D</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>3FFFC147-5E9E-480C-AABF-8AFA0474D072</string>
+			<string>879BF003324E24558D138DA3C78D1A2F3EF8D23D</string>
 			<key>IDESourceControlWCCName</key>
 			<string>SimpleImageCropEditor</string>
 		</dict>
